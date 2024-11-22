@@ -8,3 +8,22 @@ This job salary dashboard was designed to assist job seekers in exploring salary
 
 The data comes from [Luke Barousse](https://www.lukebarousse.com/) course, which offers a solid foundation in data analysis using this powerful tool. It includes detailed information on job titles, salaries, locations, and key skills, all of which are featured in this dashboard.
 
+### Dashboard File
+Final dashboard is in [Salary_Dashboard](Project_1-Dashboard/Salary_Dashboard.xlsx).
+
+### Excel Skills Used
+
+The following Excel skills were utilized for analysis:
+
+- **📉 Charts**
+- **🧮 Formulas and Functions**
+- **❎ Data Validation**
+
+### Data Jobs Dataset
+
+The dataset used in this project features real-world data science job information from 2023. The dataset provides detailed insights into:
+
+- **👨‍💼 Job titles**
+- **💰 Salaries**
+- **📍 Locations**
+- **🛠️ Skills**
