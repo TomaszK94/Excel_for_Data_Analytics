@@ -27,3 +27,7 @@ The dataset used in this project features real-world data science job informatio
 - **💰 Salaries**
 - **📍 Locations**
 - **🛠️ Skills**
+
+## Conclusion
+
+I developed this dashboard to highlight salary trends across different data-related job titles. It helps users make informed decisions about their career paths by exploring how factors like location and job type impact salaries.
