@@ -79,7 +79,7 @@ The dataset used in this project features real-world data science job informatio
 #### Transform
 
 - Next, I transformed each query by adjusting column types, removing irrelevant columns, cleaning the text to remove specific words, and trimming any excess whitespace.
-    - data_jobs_all
+    - data_jobs_salary
 
         ![Transform_Screen1](0_Resources/Datasets/Images/Transform_Screen1.png)
 
@@ -90,7 +90,7 @@ The dataset used in this project features real-world data science job informatio
 #### Load
 
 - Finally, I loaded both transformed queries into the workbook, establishing the foundation for my next phase of analysis.
-    - data_jobs_all
+    - data_jobs_salary
 
         ![Load_Screen1](0_Resources/Datasets/Images/Load_Screen1.png)
 
@@ -98,3 +98,14 @@ The dataset used in this project features real-world data science job informatio
 
         ![Load_Screen2](0_Resources/Datasets/Images/Load_Screen2.png)
 
+### Analysis
+
+#### Insights
+
+- A positive correlation exists between the number of skills listed in job postings and the median salary, especially for positions such as Senior Data Engineer. Roles that require fewer skills, like Business Analyst, typically offer lower salaries, indicating that more specialized skill sets are associated with higher market value.
+
+![Chart1](0_Resources/Datasets/Images/Chart1.png)
+
+#### So What
+
+- This trend highlights the importance of gaining a diverse set of relevant skills, especially for those aspiring to secure higher-paying positions.
