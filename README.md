@@ -36,7 +36,7 @@ I developed this dashboard to highlight salary trends across different data-rela
 
 ## Introduction
 
-As a former job seeker, I’ve always been curious about the lack of data on the most in-demand jobs and skills in the data science field. This led me to explore what skills top employers are seeking and how to secure higher pay.
+As a job seeker, I’ve always been curious about the lack of data on the most in-demand jobs and skills in the data science field. This led me to explore what skills top employers are seeking and how to secure higher pay.
 
 ### Key Questions for Analysis
 
@@ -79,22 +79,22 @@ The dataset used in this project features real-world data science job informatio
 #### Transform
 
 - Next, I transformed each query by adjusting column types, removing irrelevant columns, cleaning the text to remove specific words, and trimming any excess whitespace.
-    - data_jobs_salary
+    - **data_jobs_salary**
 
         ![Transform_Screen1](0_Resources/Datasets/Images/Transform_Screen1.png)
 
-    - data_job_skills
+    - **data_job_skills**
 
         ![Transform_Screen2](0_Resources/Datasets/Images/Transform_Screen2.png)
 
 #### Load
 
 - Finally, I loaded both transformed queries into the workbook, establishing the foundation for my next phase of analysis.
-    - data_jobs_salary
+    - **data_jobs_salary**
 
         ![Load_Screen1](0_Resources/Datasets/Images/Load_Screen1.png)
 
-    - data_job_skills
+    - **data_job_skills**
 
         ![Load_Screen2](0_Resources/Datasets/Images/Load_Screen2.png)
 
@@ -102,7 +102,7 @@ The dataset used in this project features real-world data science job informatio
 
 #### Insights
 
-- A positive correlation exists between the number of skills listed in job postings and the median salary, especially for positions such as Senior Data Engineer. Roles that require fewer skills, like Business Analyst, typically offer lower salaries, indicating that more specialized skill sets are associated with higher market value.
+- A positive correlation exists between the number of skills listed in job postings and the median salary, especially for positions such as `Senior Data Engineer`. Roles that require fewer skills, like `Business Analyst`, typically offer lower salaries, indicating that more specialized skill sets are associated with higher market value.
 
 ![Chart1](0_Resources/Datasets/Images/Chart1.png)
 
@@ -145,7 +145,7 @@ The dataset used in this project features real-world data science job informatio
 
 #### Insights
 
-- Job roles such as Data Engineer and Data Scientist offer higher median salaries both in the US and internationally, reflecting the global demand for advanced data expertise.
+- Job roles such as `Data Engineer` and `Data Scientist` offer higher median salaries both in the US and internationally, reflecting the global demand for advanced data expertise.
 - The salary gap between US and non-US positions is especially pronounced in high-tech jobs, likely due to the concentration of tech industries in the US.
 
 ![Chart2](0_Resources/Datasets/Images/Chart2.png)
@@ -202,18 +202,18 @@ The dataset used in this project features real-world data science job informatio
 
 #### Insights
 
-- Skills such as Python, Oracle, and SQL are linked to higher median salaries, highlighting their crucial role in high-paying tech jobs.
-- On the other hand, skills like PowerPoint and Word are associated with lower median salaries and fewer opportunities, reflecting their lower specialization and demand in high-paying sectors.
+- Skills such as `Python`, `Oracle`, and `SQL` are linked to higher median salaries, highlighting their crucial role in high-paying tech jobs.
+- On the other hand, skills like `PowerPoint` and `Word` are associated with lower median salaries and fewer opportunities, reflecting their lower specialization and demand in high-paying sectors.
 
 ![Chart4](0_Resources/Datasets//Images/Chart4.png)
 
 ### Conclusion
 
-- This chart emphasizes the value of dedicating time to learning high-demand skills like Python and SQL, which are clearly linked to higher-paying roles, particularly for those aiming to maximize their earnings in the tech industry.
+- This chart emphasizes the value of dedicating time to learning high-demand skills like `Python` and `SQL`, which are clearly linked to higher-paying roles, particularly for those aiming to maximize their earnings in the tech industry.
 
 ## Summary
 
 
-As a data enthusiast, I initiated this Excel-based project to gain valuable insights into the data science job market. Using a dataset sourced from real-world job postings, I analyzed job titles, salaries, locations, and key skills. By utilizing Excel tools such as Power Query, PivotTables, DAX, and charts, I identified significant correlations between multiple skills and higher salaries, especially in Python, SQL, and cloud technologies.
+As a data enthusiast, I initiated this Excel-based project to gain valuable insights into the data science job market. Using a dataset sourced from real-world job postings, I analyzed job titles, salaries, locations, and key skills. By utilizing Excel tools such as `Power Query`, `PivotTables`, `DAX`, and `charts`, I identified significant correlations between multiple skills and higher salaries, especially in `Python`, `SQL`, and `cloud technologies`.
 
 I hope this project serves as a practical resource for data professionals and offers an overview of the skills required for securing higher-paying roles.
