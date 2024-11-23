@@ -187,3 +187,33 @@ The dataset used in this project features real-world data science job informatio
 #### Conclusion
 
 - Recognizing the most sought-after skills in the industry helps professionals remain competitive and informs training and educational programs to concentrate on the most influential technologies.
+
+## 4. What’s the pay of the top 10 skills? (for Data Analyst)
+
+### Skill: Advanced Charts (Pivot Chart)
+
+#### PivotChart
+
+- I created a combo PivotChart to plot median salary and skill likelihood (%) from my PivotTable.
+    - **Primary Axis:** Median Salary (as a Clustered Column)
+    - **Secondary Axis:** Skill Likelihood (as a Line with Markers)
+
+### Analysis
+
+#### Insights
+
+- Skills such as Python, Oracle, and SQL are linked to higher median salaries, highlighting their crucial role in high-paying tech jobs.
+- On the other hand, skills like PowerPoint and Word are associated with lower median salaries and fewer opportunities, reflecting their lower specialization and demand in high-paying sectors.
+
+![Chart4](0_Resources/Datasets//Images/Chart4.png)
+
+### Conclusion
+
+- This chart emphasizes the value of dedicating time to learning high-demand skills like Python and SQL, which are clearly linked to higher-paying roles, particularly for those aiming to maximize their earnings in the tech industry.
+
+## Summary
+
+
+As a data enthusiast, I initiated this Excel-based project to gain valuable insights into the data science job market. Using a dataset sourced from real-world job postings, I analyzed job titles, salaries, locations, and key skills. By utilizing Excel tools such as Power Query, PivotTables, DAX, and charts, I identified significant correlations between multiple skills and higher salaries, especially in Python, SQL, and cloud technologies.
+
+I hope this project serves as a practical resource for data professionals and offers an overview of the skills required for securing higher-paying roles.
