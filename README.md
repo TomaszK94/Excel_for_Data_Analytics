@@ -106,6 +106,50 @@ The dataset used in this project features real-world data science job informatio
 
 ![Chart1](0_Resources/Datasets/Images/Chart1.png)
 
-#### So What
+#### **Conclusion**
 
 - This trend highlights the importance of gaining a diverse set of relevant skills, especially for those aspiring to secure higher-paying positions.
+
+## 2. What’s the salary for data jobs in different regions?
+
+### Skills: PivotTables & DAX
+
+#### DAX
+
+- To calculate the median year salary I used DAX.
+
+    ```
+    Median Salary := MEDIAN(data_jobs_salary[salary_year_avg])
+    ```
+
+#### Pivot Table
+
+- I created a PivotTable using the Data Model I created with Power Pivot.
+- I moved the `job_title_short` to the rows area and `Median Salary` into the values area.
+- Then I added new measure to calculate the median salary for United States jobs and Non US jobs.
+    ```
+    =CALCULATE(
+        [Median Salary];
+        data_jobs_salary[job_country]="United States")
+    ```
+- Non US jobs.
+    ```
+    =CALCULATE(
+        [Median Salary];
+        data_jobs_salary[job_country]<>"United States")
+    ```
+
+
+
+### Analysis
+
+#### Insights
+
+- Job roles such as Data Engineer and Data Scientist offer higher median salaries both in the US and internationally, reflecting the global demand for advanced data expertise.
+- The salary gap between US and non-US positions is especially pronounced in high-tech jobs, likely due to the concentration of tech industries in the US.
+
+![Chart2](0_Resources/Datasets/Images/Chart2.png)
+
+#### **Conclusion**
+
+- These salary insights are crucial for strategic planning and negotiations, enabling professionals and companies to align their offers with market standards while accounting for regional differences.
