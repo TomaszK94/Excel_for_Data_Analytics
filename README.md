@@ -153,3 +153,37 @@ The dataset used in this project features real-world data science job informatio
 #### **Conclusion**
 
 - These salary insights are crucial for strategic planning and negotiations, enabling professionals and companies to align their offers with market standards while accounting for regional differences.
+
+## 3. What are the top skills of data professionals?
+
+### Skill: Power Pivot
+
+#### Power Pivot
+
+- I built a data model by combining the `data_jobs_salary` and `data_jobs_skills` tables into a single model. 
+- Since I had already cleaned the data using Power Query, Power Pivot automatically established a relationship between the two tables.
+
+#### Data Model
+
+- I created a relationship between my two tables using the `job_id` column.
+
+![Relationship](0_Resources/Datasets/Images/Relations.png)
+
+#### Power Pivot Menu
+
+- The Power Pivot menu was used to refine my data model and makes it easy to create measures.
+
+![PoverPivot](0_Resources/Datasets/Images/PowerPivot.png)
+
+### Analysis
+
+#### Insights
+
+- `SQL` and `Python` are the leading skills in data-related roles, highlighting their essential role in data processing and analysis.
+- Emerging technologies such as `AWS` and `Azure` are also prominently featured, emphasizing the industry's move towards cloud services and big data solutions.
+
+![Charts3](0_Resources/Datasets/Images/Chart3.png)
+
+#### Conclusion
+
+- Recognizing the most sought-after skills in the industry helps professionals remain competitive and informs training and educational programs to concentrate on the most influential technologies.
