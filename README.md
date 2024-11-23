@@ -56,3 +56,45 @@ The following Excel skills were utilized for analysis:
 - **DAX (Data Analysis Expressions)**
 - **Power Query**
 - **Power Pivot**
+
+### Data Jobs Dataset
+
+The dataset used in this project features real-world data science job information from 2023. The dataset provides detailed insights into:
+
+- **Job titles**
+- **Salaries**
+- **Locations**
+- **Skills**
+
+## 1. Do more skills get you better pay?
+
+### Skill: Power Query (ETL)
+
+#### Extract
+
+- I began by using Power Query to extract the original data (`data_salary_all.xlsx`) and create two separate queries:
+    - The first query contained all the data job information.
+    - The second query listed the skills associated with each job ID.
+
+#### Transform
+
+- Next, I transformed each query by adjusting column types, removing irrelevant columns, cleaning the text to remove specific words, and trimming any excess whitespace.
+    - data_jobs_all
+
+        ![]()
+
+    - data_job_skills
+
+        ![]()
+
+#### Load
+
+- Finally, I loaded both transformed queries into the workbook, establishing the foundation for my next phase of analysis.
+    - data_jobs_all
+
+        ![]()
+
+    - data_job_skills
+
+        ![]()
+
