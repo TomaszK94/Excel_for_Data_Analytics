@@ -81,20 +81,20 @@ The dataset used in this project features real-world data science job informatio
 - Next, I transformed each query by adjusting column types, removing irrelevant columns, cleaning the text to remove specific words, and trimming any excess whitespace.
     - data_jobs_all
 
-        ![]()
+        ![Transform_Screen1](0_Resources/Datasets/Images/Transform_Screen1.png)
 
     - data_job_skills
 
-        ![]()
+        ![Transform_Screen2](0_Resources/Datasets/Images/Transform_Screen2.png)
 
 #### Load
 
 - Finally, I loaded both transformed queries into the workbook, establishing the foundation for my next phase of analysis.
     - data_jobs_all
 
-        ![]()
+        ![Load_Screen1](0_Resources/Datasets/Images/Load_Screen1.png)
 
     - data_job_skills
 
-        ![]()
+        ![Load_Screen2](0_Resources/Datasets/Images/Load_Screen2.png)
 
